@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Controlador
+comment0.text=\r\n\ se\ encarga\ de\ hacer\ los\ llamados\ a\ las\ fiferentes\ clases\ y\ sus\ metodos\r\n\ \r\n\ @author\ (James\ Araya)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ controlador()
+numComments=2

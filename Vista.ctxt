@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Vista
+comment0.text=\r\n\ Se\ encarga\ de\ mostrar\ al\ usuario\ las\ opciones\ o\ los\ datos\ con\ los\ que\ se\ va\ a\ intereactuar\r\n\ \r\n\ @author\ (James\ Araya)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=int\ Menu()
+numComments=2
