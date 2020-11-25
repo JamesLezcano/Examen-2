@@ -8,9 +8,9 @@
 public class Estudiante
 {
     private String nombre, carnet;
-    private Notas notas;
+    private L_Notas notas;
     
-    public Estudiante(String nombre, String carnet,Notas notas)
+    public Estudiante(String nombre, String carnet,L_Notas notas)
     {
         this.nombre=nombre;
         this.carnet=carnet;
@@ -42,12 +42,12 @@ public class Estudiante
         this.carnet=carnet;
     }
     
-    public Notas getNotas()
+    public L_Notas getNotas()
     {
         return notas;
     }
     
-    public void setNotas(Notas notas)
+    public void setNotas(L_Notas notas)
     {
         this.notas=notas;
     }

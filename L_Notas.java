@@ -7,8 +7,8 @@
  */
 public class L_Notas
 {
-    private Nodo2 inicio;
-    private Nodo2 fin;
+    private Nota inicio;
+    private Nota fin;
    
     public L_Notas()
     {
@@ -28,20 +28,33 @@ public class L_Notas
         }
     }
     
-    public void insertar(Notas nota)
+    public void insertar(Nota nota)
     {
-        Nodo2 actual;
+        Nota actual;
         if (listVacia( ))
         {
-            actual= new Nodo2(nota,null);
+            actual= nota;
             inicio=actual;
             fin=actual;
         }
+        
         else
         {
-            actual=new Nodo2(nota, null); 
-            fin.setSiguiente(actual);
+            actual= nota;
+            fin.setSiguiente(nota);
             fin=actual;
         }
+    }
+    
+    public float obtener (){
+        float resultado=0;
+        int contador=0;
+        Nota aux=inicio;
+        while(aux!=null){
+            contador++;
+            resultado+=aux.getNotas();
+            aux=aux.getSiguiente();
+        }
+        return (resultado/contador);
     }
 }
