@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Nodo2
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Notas\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=valor\ siguiente
+comment1.target=Nodo2(Notas,\ Nodo2)
+comment2.params=
+comment2.target=Nodo2\ getSiguiente()
+comment3.params=siguiente
+comment3.target=void\ setSiguiente(Nodo2)
+comment4.params=
+comment4.target=Notas\ getValor()
+comment5.params=valor
+comment5.target=void\ getValor(Notas)
+numComments=6

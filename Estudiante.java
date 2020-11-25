@@ -7,9 +7,10 @@
  */
 public class Estudiante
 {
-    private String nombre, carnet, notas;
-   
-    public Estudiante(String nombre, String carnet, String notas)
+    private String nombre, carnet;
+    private Notas notas;
+    
+    public Estudiante(String nombre, String carnet,Notas notas)
     {
         this.nombre=nombre;
         this.carnet=carnet;
@@ -26,7 +27,7 @@ public class Estudiante
         return nombre;
     }
     
-    public void setNombre(String nombre)
+    public void setNombre(String nombre) 
     {
         this.nombre=nombre;
     }
@@ -41,12 +42,12 @@ public class Estudiante
         this.carnet=carnet;
     }
     
-    public String getNotas()
+    public Notas getNotas()
     {
         return notas;
     }
     
-    public void setNotas(String notas)
+    public void setNotas(Notas notas)
     {
         this.notas=notas;
     }

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Notas
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Notas\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=nota
+comment1.target=Notas(int)
+comment2.params=
+comment2.target=int\ getNotas()
+comment3.params=notas
+comment3.target=void\ setNotas(int)
+numComments=4
