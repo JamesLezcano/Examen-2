@@ -1,12 +1,15 @@
 #BlueJ class context
 comment0.target=L_Notas
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ L_Notas\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ esta\ clase\ almacena\ la\ lista\ de\ notas\r\n\ \r\n\ @author\ (james)\ \r\n\ @version\ (0000)\r\n
 comment1.params=
 comment1.target=L_Notas()
 comment2.params=
 comment2.target=boolean\ listVacia()
+comment2.text=\r\n\ @param\ recibe\ un\ valor\ booleano\ que\ indica\ si\ la\ lista\ esta\ vacia\ o\ posee\ elementos\r\n
 comment3.params=nota
 comment3.target=void\ insertar(Nota)
+comment3.text=\r\n\ @param\ recibe\ la\ nota\ para\ almacenarla\ en\ un\ nodo\r\n
 comment4.params=
-comment4.target=float\ obtener()
+comment4.target=float\ calculo()
+comment4.text=\r\n\ @return\ retorna\ el\ promedio\ de\ las\ notas\ de\ una\ lista\r\n
 numComments=5

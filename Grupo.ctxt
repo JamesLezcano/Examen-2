@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.target=Lista
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Lista\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.target=Grupo
+comment0.text=\r\n\ Esta\ clase\ es\ la\ lista\ de\ los\ datos\ que\ almacena\ cada\ estudiante\r\n\ \r\n\ @author\ (james)\ \r\n\ @version\ (0000)\r\n
 comment1.params=
-comment1.target=Lista()
+comment1.target=Grupo()
 comment2.params=
 comment2.target=boolean\ listVacia()
 comment3.params=dato

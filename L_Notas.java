@@ -1,14 +1,16 @@
 
 /**
- * Write a description of class L_Notas here.
+ * esta clase almacena la lista de notas
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (james) 
+ * @version (0000)
  */
 public class L_Notas
 {
     private Nota inicio;
     private Nota fin;
+    public float resultado=0;
+    public int contador=0;
    
     public L_Notas()
     {
@@ -16,6 +18,9 @@ public class L_Notas
         fin=null;
     }
     
+    /**
+     * @param recibe un valor booleano que indica si la lista esta vacia o posee elementos
+     */
      public boolean listVacia()
     {
         if (inicio==null)
@@ -28,6 +33,9 @@ public class L_Notas
         }
     }
     
+    /**
+     * @param recibe la nota para almacenarla en un nodo
+     */
     public void insertar(Nota nota)
     {
         Nota actual;
@@ -46,7 +54,10 @@ public class L_Notas
         }
     }
     
-    public float obtener (){
+    /**
+     * @return retorna el promedio de las notas de una lista
+     */
+    public float calculo (){
         float resultado=0;
         int contador=0;
         Nota aux=inicio;
@@ -55,6 +66,7 @@ public class L_Notas
             resultado+=aux.getNotas();
             aux=aux.getSiguiente();
         }
-        return (resultado/contador);
+        float promedio=(resultado/contador);
+        return promedio;
     }
 }

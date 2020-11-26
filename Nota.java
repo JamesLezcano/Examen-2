@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Notas here.
+ * Esta clase almacena las notas
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (James) 
+ * @version (000)
  */
 public class Nota
 {

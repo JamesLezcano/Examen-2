@@ -1,16 +1,16 @@
-
+import javax.swing.JOptionPane;
 /**
- * Write a description of class Lista here.
+ * Esta clase es la lista de los datos que almacena cada estudiante
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (james) 
+ * @version (0000)
  */
-public class Lista
+public class Grupo
 {
     private Nodo inicio;
     private Nodo fin;
    
-    public Lista()
+    public Grupo()
     {
         inicio= null;
         fin=null;
@@ -58,7 +58,7 @@ public class Lista
             temporal=inicio;
             while(temporal!=null)
             {
-                System.out.print(temporal.getDato().toString());
+                JOptionPane.showMessageDialog(null,temporal.getDato().toString());
                 temporal=temporal.getSiguiente();
             }
         }

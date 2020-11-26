@@ -9,11 +9,29 @@ public class Vista
 {
     public int Menu()
     {
-        int opcion=Integer.parseInt(JOptionPane.showInputDialog("    MENÚ      \nn"
-        +" 1 - Insertar datos del estudiante.n"
+        int opcion=Integer.parseInt(JOptionPane.showInputDialog("    MENÚ      \n\n"
+        +" 1 - Insertar datos del estudiante.\n"
         +" 2 - Ingresar promedio a evaluar.\n"
         +" 3 - Salir.\n"));
         
         return opcion;
+    }
+    
+    public String Nombre()
+    {
+         String nombre=JOptionPane.showInputDialog("Ingrese el nombre del estudiante: ");
+         return nombre;
+    }
+    
+    public String Carnet()
+    {
+         String carnet=JOptionPane.showInputDialog("Ingrese el Carnet del estudiante: ");
+         return carnet;
+    }
+    
+    public float Calificacion()
+    {
+        float calificacion=Float.parseFloat(JOptionPane.showInputDialog("Ingrese la nota del estudiante: "));
+        return calificacion;
     }
 }

@@ -1,25 +1,26 @@
-
 /**
- * Write a description of class Polinomio here.
+ * Esta clase almacena los datos que se pasan al usuario 
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (james Araya) 
+ * @version (0000)
  */
 public class Estudiante
 {
     private String nombre, carnet;
     private L_Notas notas;
+    private float promedio;
     
-    public Estudiante(String nombre, String carnet,L_Notas notas)
+    public Estudiante(String nombre, String carnet,L_Notas notas, float promedio)
     {
         this.nombre=nombre;
         this.carnet=carnet;
         this.notas=notas;
+        this.promedio=promedio;
     }
     
     public String toString()
     {
-        return "  nombre"+getNombre()+"  carnet  "+getCarnet()+"  notas"+getNotas();
+        return "\n  nombre   "+getNombre()+"\n  carnet  "+getCarnet()+ "\n Promedio "+ getPromedio();
     }
     
     public String getNombre()
@@ -50,5 +51,15 @@ public class Estudiante
     public void setNotas(L_Notas notas)
     {
         this.notas=notas;
+    }
+    
+    public float getPromedio()
+    {
+        return promedio;
+    }
+    
+    public void setPromedio(float promedio)
+    {
+        this.promedio=promedio;
     }
 }

@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Main
-comment0.text=\r\n\ Esta\ clase\ se\ encarga\ de\ inicializar\ el\ programa\ \r\n\ \r\n\ @author\ (James\ Araya)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ se\ encarga\ de\ hacer\ los\ llamados\ a\ las\ fiferentes\ clases\ y\ sus\ metodos\r\n\ \r\n\ @author\ (James\ Araya)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2
