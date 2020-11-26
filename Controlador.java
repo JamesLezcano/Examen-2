@@ -12,12 +12,11 @@ public class Controlador
         Vista vista=new Vista();
         Grupo lista=new Grupo();
         L_Notas notas= new L_Notas();
-         
         int opcion;
         
         String nombre , carnet; // instancia los datos que se pasaran a las listas
         float promedio;//instancia las notas que recibira la lista dentro del nodo
-        
+        int elementos;
         float calificacion;
         
         do
@@ -29,8 +28,8 @@ public class Controlador
                     
                     nombre= vista.Nombre();
                     carnet = vista.Carnet();
-                   
-                    for (int y=0 ;y<3; y++)
+                    elementos=vista.elementos();
+                    for (int y=0 ;y<elementos; y++)
                     {
                         calificacion=vista.Calificacion();
                         
@@ -48,6 +47,7 @@ public class Controlador
                 case 3:
                     opcion=3;
                     break;
+                
                 default:
                     JOptionPane.showMessageDialog(null,"Ingreso un dato no valido");
             }

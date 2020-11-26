@@ -9,4 +9,6 @@ comment3.params=dato
 comment3.target=void\ insertar(Estudiante)
 comment4.params=
 comment4.target=void\ mostrar()
-numComments=5
+comment5.params=
+comment5.target=void\ Ordenar()
+numComments=6

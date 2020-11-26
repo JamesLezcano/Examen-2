@@ -11,7 +11,7 @@ public class Vista
     {
         int opcion=Integer.parseInt(JOptionPane.showInputDialog("    MENÚ      \n\n"
         +" 1 - Insertar datos del estudiante.\n"
-        +" 2 - Ingresar promedio a evaluar.\n"
+        +" 2 - Imprimir elementos de la lista estudiante.\n"
         +" 3 - Salir.\n"));
         
         return opcion;
@@ -33,5 +33,11 @@ public class Vista
     {
         float calificacion=Float.parseFloat(JOptionPane.showInputDialog("Ingrese la nota del estudiante: "));
         return calificacion;
+    }
+    
+     public int elementos()
+    {
+        int cantidad=Integer.parseInt(JOptionPane.showInputDialog("Cuantas notas va a agregar: "));
+        return cantidad;
     }
 }

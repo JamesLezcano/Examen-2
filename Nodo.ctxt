@@ -10,5 +10,5 @@ comment3.target=void\ setSiguiente(Nodo)
 comment4.params=
 comment4.target=Estudiante\ getDato()
 comment5.params=dato
-comment5.target=void\ getDato(Estudiante)
+comment5.target=void\ setDato(Estudiante)
 numComments=6

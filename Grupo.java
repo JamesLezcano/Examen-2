@@ -63,6 +63,27 @@ public class Grupo
             }
         }
     }
+    
+     public void Ordenar()
+    {
+        if ( inicio!=null)
+        {
+            while(inicio.getSiguiente()!=null)
+            {
+
+                    if ( inicio.getDato().getPromedio()>inicio.getSiguiente().getDato().getPromedio())
+                    {
+                        Estudiante temporal= inicio.getDato();
+                        inicio.setDato(inicio.getSiguiente().getDato()); 
+                        inicio.getSiguiente().setDato(temporal);
+                        System.out.println(temporal.getPromedio());
+                    }
+                
+                    inicio= inicio.getSiguiente();
+            }
+        }
+          
+    }
 }
 
 

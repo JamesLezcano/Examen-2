@@ -31,7 +31,7 @@ public class Nodo
         return dato;
     }
     
-    public void getDato(Estudiante dato)
+    public void setDato(Estudiante dato)
     {
         this.dato = dato;
     }

@@ -9,4 +9,6 @@ comment3.params=
 comment3.target=java.lang.String\ Carnet()
 comment4.params=
 comment4.target=float\ Calificacion()
-numComments=5
+comment5.params=
+comment5.target=int\ elementos()
+numComments=6
